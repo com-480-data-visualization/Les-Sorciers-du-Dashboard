@@ -32,15 +32,21 @@ The dataset is largely complete. Most variables have no missing values, while `q
 Trade values (`trade_usd`) are highly skewed, with a few transactions accounting for very large volumes. A logarithmic transformation produces an approximately normal distribution, reflecting a wide range of transaction sizes from small trades to massive shipments.
 
 ![image](./scatterplot.png)
+
 Log-log plots of `weight_kg` vs. `trade_usd` show a clear positive correlation: larger shipments generally correspond to higher values. Variation across commodities is evident—raw materials or agricultural goods often have high weight but low value, whereas electronics or pharmaceuticals are high-value but low-weight. This highlights structural differences between commodity categories in global trade.
 
 The top categories by trade value are: mineral fuels, oils, and distillation products (20%), commodities not specified according to kind (10.8%), pearls, precious stones, metals, and coins (4.9%), pharmaceutical products (4.7%), aircraft, spacecraft, and parts thereof (4%), and vehicles other than railway/tramway (4%). Further exploration will focus on the composition of commodities not specified according to kind.
 
 ![image](./piechart.png)
+
 Time-series plots for the top ten trading economies show strong growth from the early 1990s to mid-2010s. The EU-28 and the United States consistently dominate, while China exhibits rapid export growth from the early 2000s, reflecting its integration into global supply chains.
 
 ![image](./linegraph.png)
+
 Overall, the dataset reveals strong global trade growth, large disparities between commodity weight and value, and the rising prominence of emerging economies, particularly China.
+
+The exploration of the dataset can be found [here](../notebooks/data_exploring.ipynb).
+
 
 ## 4. Related Work
 
