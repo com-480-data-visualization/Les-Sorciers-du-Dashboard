@@ -1,0 +1,24 @@
+# Nuxt dev/build outputs
+geoflux/.output
+geoflux/.data
+geoflux/.nuxt
+geoflux/.nitro
+geoflux/.cache
+geoflux/dist
+
+# Node dependencies
+geoflux/node_modules
+
+# Logs
+geoflux/.logs
+geoflux/*.log
+
+# Misc
+geoflux/.DS_Store
+geoflux/.fleet
+geoflux/.idea
+
+# Local env files
+geoflux/.env
+geoflux/.env.*
+!.env.example
