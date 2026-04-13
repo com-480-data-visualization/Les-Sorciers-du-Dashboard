@@ -1,0 +1,200 @@
+{
+  "country": "France",
+  "flag": "/images/france.png",
+
+  "top_exports": [
+    "Aircraft and spacecraft",
+    "Pharmaceutical products",
+    "Wine and spirits"
+  ],
+
+  "top_imports": [
+    "Crude petroleum",
+    "Motor vehicles",
+    "Electronic equipment"
+  ],
+
+  "trade_value_time": [
+    [2014, 1020000000000],
+    [2015, 980000000000],
+    [2016, 995000000000],
+    [2017, 1050000000000],
+    [2018, 1100000000000],
+    [2019, 1080000000000],
+    [2020, 950000000000],
+    [2021, 1150000000000],
+    [2022, 1250000000000],
+    [2023, 1200000000000]
+  ],
+
+  "trade_weight_time": [
+    [2014, 520000000],
+    [2015, 500000000],
+    [2016, 510000000],
+    [2017, 530000000],
+    [2018, 550000000],
+    [2019, 545000000],
+    [2020, 480000000],
+    [2021, 560000000],
+    [2022, 580000000],
+    [2023, 570000000]
+  ],
+
+  "top10_time": [
+    {
+      "year": 2014,
+      "exports": [
+        ["Aircraft and spacecraft", 120000000000],
+        ["Pharmaceutical products", 80000000000],
+        ["Motor vehicles", 75000000000],
+        ["Wine and spirits", 60000000000],
+        ["Machinery", 55000000000],
+        ["Electrical equipment", 50000000000],
+        ["Perfumes and cosmetics", 45000000000],
+        ["Plastics", 40000000000],
+        ["Iron and steel", 35000000000],
+        ["Dairy products", 30000000000]
+      ]
+    },
+    {
+      "year": 2015,
+      "exports": [
+        ["Aircraft and spacecraft", 115000000000],
+        ["Pharmaceutical products", 82000000000],
+        ["Motor vehicles", 73000000000],
+        ["Wine and spirits", 61000000000],
+        ["Machinery", 54000000000],
+        ["Electrical equipment", 49000000000],
+        ["Perfumes and cosmetics", 46000000000],
+        ["Plastics", 39000000000],
+        ["Iron and steel", 34000000000],
+        ["Dairy products", 31000000000]
+      ]
+    },
+    {
+      "year": 2016,
+      "exports": [
+        ["Aircraft and spacecraft", 118000000000],
+        ["Pharmaceutical products", 85000000000],
+        ["Motor vehicles", 74000000000],
+        ["Wine and spirits", 62000000000],
+        ["Machinery", 55000000000],
+        ["Electrical equipment", 50000000000],
+        ["Perfumes and cosmetics", 47000000000],
+        ["Plastics", 40000000000],
+        ["Iron and steel", 35000000000],
+        ["Dairy products", 32000000000]
+      ]
+    },
+    {
+      "year": 2017,
+      "exports": [
+        ["Aircraft and spacecraft", 125000000000],
+        ["Pharmaceutical products", 88000000000],
+        ["Motor vehicles", 76000000000],
+        ["Wine and spirits", 64000000000],
+        ["Machinery", 57000000000],
+        ["Electrical equipment", 52000000000],
+        ["Perfumes and cosmetics", 48000000000],
+        ["Plastics", 42000000000],
+        ["Iron and steel", 36000000000],
+        ["Luxury goods", 34000000000]
+      ]
+    },
+    {
+      "year": 2018,
+      "exports": [
+        ["Aircraft and spacecraft", 130000000000],
+        ["Pharmaceutical products", 90000000000],
+        ["Motor vehicles", 78000000000],
+        ["Wine and spirits", 66000000000],
+        ["Machinery", 59000000000],
+        ["Electrical equipment", 54000000000],
+        ["Perfumes and cosmetics", 50000000000],
+        ["Plastics", 43000000000],
+        ["Iron and steel", 37000000000],
+        ["Luxury goods", 35000000000]
+      ]
+    },
+    {
+      "year": 2019,
+      "exports": [
+        ["Aircraft and spacecraft", 128000000000],
+        ["Pharmaceutical products", 92000000000],
+        ["Motor vehicles", 77000000000],
+        ["Wine and spirits", 67000000000],
+        ["Machinery", 60000000000],
+        ["Electrical equipment", 55000000000],
+        ["Perfumes and cosmetics", 51000000000],
+        ["Plastics", 44000000000],
+        ["Iron and steel", 36000000000],
+        ["Luxury goods", 36000000000]
+      ]
+    },
+    {
+      "year": 2020,
+      "exports": [
+        ["Pharmaceutical products", 100000000000],
+        ["Aircraft and spacecraft", 90000000000],
+        ["Motor vehicles", 65000000000],
+        ["Wine and spirits", 60000000000],
+        ["Machinery", 52000000000],
+        ["Electrical equipment", 50000000000],
+        ["Perfumes and cosmetics", 48000000000],
+        ["Plastics", 42000000000],
+        ["Medical equipment", 40000000000],
+        ["Dairy products", 33000000000]
+      ]
+    },
+    {
+      "year": 2021,
+      "exports": [
+        ["Aircraft and spacecraft", 135000000000],
+        ["Pharmaceutical products", 105000000000],
+        ["Motor vehicles", 78000000000],
+        ["Wine and spirits", 68000000000],
+        ["Machinery", 61000000000],
+        ["Electrical equipment", 56000000000],
+        ["Perfumes and cosmetics", 52000000000],
+        ["Plastics", 45000000000],
+        ["Luxury goods", 38000000000],
+        ["Medical equipment", 36000000000]
+      ]
+    },
+    {
+      "year": 2022,
+      "exports": [
+        ["Aircraft and spacecraft", 145000000000],
+        ["Pharmaceutical products", 110000000000],
+        ["Motor vehicles", 80000000000],
+        ["Wine and spirits", 70000000000],
+        ["Machinery", 63000000000],
+        ["Electrical equipment", 58000000000],
+        ["Perfumes and cosmetics", 54000000000],
+        ["Luxury goods", 40000000000],
+        ["Plastics", 46000000000],
+        ["Renewable energy equipment", 37000000000]
+      ]
+    },
+    {
+      "year": 2023,
+      "exports": [
+        ["Aircraft and spacecraft", 140000000000],
+        ["Pharmaceutical products", 108000000000],
+        ["Motor vehicles", 79000000000],
+        ["Wine and spirits", 72000000000],
+        ["Machinery", 64000000000],
+        ["Electrical equipment", 59000000000],
+        ["Perfumes and cosmetics", 55000000000],
+        ["Luxury goods", 42000000000],
+        ["Plastics", 47000000000],
+        ["Renewable energy equipment", 39000000000]
+      ]
+    }
+  ],
+
+  "commercial_balance_ratio": {
+    "description": "Average (Exports - Imports) over last 10 years",
+    "value": -45000000000
+  }
+}

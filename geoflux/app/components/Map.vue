@@ -4,10 +4,7 @@
 
     <Transition name="fade">
       <div v-if="selectedCountry" class="big-popup-overlay" @click="selectedCountry = null">
-        <div class="big-popup-content" @click.stop>
-          <button class="close-btn" @click="selectedCountry = null">×</button>
-          <h1 class="country-name">{{ selectedCountry }}</h1>
-        </div>
+        <CountryTradePopup @click.stop :country="selectedCountry", @close="selectedCountry = null"/>
       </div>
     </Transition>
   </div>
@@ -16,6 +13,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import mapboxgl from 'mapbox-gl';
+import CountryTradePopup from './CountryTradePopup.vue';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const config = useRuntimeConfig();
@@ -90,39 +88,7 @@ onUnmounted(() => {
   z-index: 10;
 }
 
-.big-popup-content {
-  background: #000;
-  width: 80%;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border: 1px solid #333;
-  border-radius: 20px;
-  box-shadow: 0 0 50px rgba(0,0,0,1);
-}
 
-.country-name {
-  color: white;
-  font-size: clamp(3rem, 10vw, 8rem); /* Responsive huge text */
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 900;
-  margin: 0;
-}
-
-.close-btn {
-  position: absolute;
-  top: 30px;
-  right: 40px;
-  background: none;
-  border: none;
-  color: white;
-  font-size: 3rem;
-  cursor: pointer;
-  line-height: 1;
-}
 
 /* Transition effects */
 .fade-enter-active,

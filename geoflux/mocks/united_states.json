@@ -1,0 +1,200 @@
+{
+  "country": "United States",
+  "flag": "/images/united_states.png",
+
+  "top_exports": [
+    "Aircraft and spacecraft",
+    "Machinery and mechanical appliances",
+    "Refined petroleum products"
+  ],
+
+  "top_imports": [
+    "Electronic equipment",
+    "Motor vehicles",
+    "Crude petroleum"
+  ],
+
+  "trade_value_time": [
+    [2014, 3990000000000],
+    [2015, 3780000000000],
+    [2016, 3640000000000],
+    [2017, 3910000000000],
+    [2018, 4210000000000],
+    [2019, 4160000000000],
+    [2020, 3760000000000],
+    [2021, 4610000000000],
+    [2022, 5240000000000],
+    [2023, 5100000000000]
+  ],
+
+  "trade_weight_time": [
+    [2014, 1400000000],
+    [2015, 1380000000],
+    [2016, 1350000000],
+    [2017, 1400000000],
+    [2018, 1450000000],
+    [2019, 1430000000],
+    [2020, 1300000000],
+    [2021, 1500000000],
+    [2022, 1600000000],
+    [2023, 1580000000]
+  ],
+
+  "top10_time": [
+    {
+      "year": 2014,
+      "exports": [
+        ["Aircraft and spacecraft", 128000000000],
+        ["Refined petroleum products", 112000000000],
+        ["Machinery", 100000000000],
+        ["Electronic equipment", 88000000000],
+        ["Pharmaceutical products", 75000000000],
+        ["Motor vehicles", 68000000000],
+        ["Medical equipment", 55000000000],
+        ["Plastics", 48000000000],
+        ["Soybeans and agricultural products", 44000000000],
+        ["Semiconductors", 38000000000]
+      ]
+    },
+    {
+      "year": 2015,
+      "exports": [
+        ["Aircraft and spacecraft", 130000000000],
+        ["Refined petroleum products", 95000000000],
+        ["Machinery", 98000000000],
+        ["Electronic equipment", 86000000000],
+        ["Pharmaceutical products", 77000000000],
+        ["Motor vehicles", 66000000000],
+        ["Medical equipment", 56000000000],
+        ["Plastics", 47000000000],
+        ["Soybeans and agricultural products", 40000000000],
+        ["Semiconductors", 39000000000]
+      ]
+    },
+    {
+      "year": 2016,
+      "exports": [
+        ["Aircraft and spacecraft", 125000000000],
+        ["Machinery", 96000000000],
+        ["Refined petroleum products", 82000000000],
+        ["Electronic equipment", 84000000000],
+        ["Pharmaceutical products", 79000000000],
+        ["Motor vehicles", 64000000000],
+        ["Medical equipment", 57000000000],
+        ["Plastics", 46000000000],
+        ["Soybeans and agricultural products", 42000000000],
+        ["Semiconductors", 40000000000]
+      ]
+    },
+    {
+      "year": 2017,
+      "exports": [
+        ["Aircraft and spacecraft", 133000000000],
+        ["Refined petroleum products", 100000000000],
+        ["Machinery", 102000000000],
+        ["Electronic equipment", 89000000000],
+        ["Pharmaceutical products", 82000000000],
+        ["Motor vehicles", 67000000000],
+        ["Medical equipment", 58000000000],
+        ["Plastics", 49000000000],
+        ["Soybeans and agricultural products", 45000000000],
+        ["Semiconductors", 42000000000]
+      ]
+    },
+    {
+      "year": 2018,
+      "exports": [
+        ["Aircraft and spacecraft", 140000000000],
+        ["Refined petroleum products", 118000000000],
+        ["Machinery", 106000000000],
+        ["Electronic equipment", 91000000000],
+        ["Pharmaceutical products", 85000000000],
+        ["Motor vehicles", 69000000000],
+        ["Medical equipment", 60000000000],
+        ["Plastics", 52000000000],
+        ["Soybeans and agricultural products", 38000000000],
+        ["Semiconductors", 44000000000]
+      ]
+    },
+    {
+      "year": 2019,
+      "exports": [
+        ["Aircraft and spacecraft", 120000000000],
+        ["Refined petroleum products", 115000000000],
+        ["Machinery", 104000000000],
+        ["Electronic equipment", 90000000000],
+        ["Pharmaceutical products", 87000000000],
+        ["Motor vehicles", 68000000000],
+        ["Medical equipment", 62000000000],
+        ["Plastics", 51000000000],
+        ["Semiconductors", 45000000000],
+        ["Soybeans and agricultural products", 36000000000]
+      ]
+    },
+    {
+      "year": 2020,
+      "exports": [
+        ["Refined petroleum products", 105000000000],
+        ["Pharmaceutical products", 98000000000],
+        ["Machinery", 97000000000],
+        ["Electronic equipment", 87000000000],
+        ["Medical equipment", 72000000000],
+        ["Aircraft and spacecraft", 85000000000],
+        ["Motor vehicles", 60000000000],
+        ["Plastics", 48000000000],
+        ["Semiconductors", 46000000000],
+        ["Soybeans and agricultural products", 40000000000]
+      ]
+    },
+    {
+      "year": 2021,
+      "exports": [
+        ["Aircraft and spacecraft", 135000000000],
+        ["Refined petroleum products", 130000000000],
+        ["Machinery", 110000000000],
+        ["Electronic equipment", 95000000000],
+        ["Pharmaceutical products", 100000000000],
+        ["Motor vehicles", 70000000000],
+        ["Medical equipment", 65000000000],
+        ["Semiconductors", 55000000000],
+        ["Plastics", 53000000000],
+        ["Soybeans and agricultural products", 45000000000]
+      ]
+    },
+    {
+      "year": 2022,
+      "exports": [
+        ["Refined petroleum products", 170000000000],
+        ["Aircraft and spacecraft", 150000000000],
+        ["Machinery", 118000000000],
+        ["Electronic equipment", 100000000000],
+        ["Pharmaceutical products", 105000000000],
+        ["Liquefied natural gas", 80000000000],
+        ["Motor vehicles", 73000000000],
+        ["Semiconductors", 60000000000],
+        ["Medical equipment", 67000000000],
+        ["Plastics", 56000000000]
+      ]
+    },
+    {
+      "year": 2023,
+      "exports": [
+        ["Refined petroleum products", 160000000000],
+        ["Aircraft and spacecraft", 155000000000],
+        ["Pharmaceutical products", 110000000000],
+        ["Machinery", 115000000000],
+        ["Electronic equipment", 98000000000],
+        ["Liquefied natural gas", 85000000000],
+        ["Motor vehicles", 74000000000],
+        ["Semiconductors", 62000000000],
+        ["Medical equipment", 68000000000],
+        ["Plastics", 55000000000]
+      ]
+    }
+  ],
+
+  "commercial_balance_ratio": {
+    "description": "Average (Exports - Imports) over last 10 years",
+    "value": -890000000000
+  }
+}
