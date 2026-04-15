@@ -2,9 +2,10 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Jason Miller| |
-| Jaime| |
-| | |
+| Jason Miller   | |
+| Jaime López    | |
+| Coco           | |
+| Lucas          | |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
