@@ -5,7 +5,7 @@
 
 ## **Team members**
 
-Coco  
+Coralie Banuls
 Jason  
 Jaime Lopez  
 Lucas Martiniano
@@ -79,7 +79,7 @@ Here we present the tools that will be used to render the visualizations of our 
 ## MVP
 
 Our MVP is hosted at the following link: 
-*(Lien à insérer)*
+*[GeoFlux](https://geoflux-delta.vercel.app/)*
 
 ![Current MVP implementation - world map](page%201%20mvp%20world%20map.png)
 
