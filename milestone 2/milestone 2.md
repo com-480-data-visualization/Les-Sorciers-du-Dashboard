@@ -5,9 +5,9 @@
 
 ## **Team members**
 
-Coralie Banuls
-Jason  
-Jaime Lopez  
+Coralie Banuls \
+Jason  Miller \
+Jaime Lopez  \
 Lucas Martiniano
 
 <br>

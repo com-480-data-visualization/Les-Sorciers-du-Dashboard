@@ -2,10 +2,10 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Jason Miller   | |
-| Jaime López    | |
-| Coco           | |
-| Lucas          | |
+| Jason Miller   |421814 |
+| Jaime López    | 423183|
+| Coralie Banuls      | 346654|
+| Lucas Martiniano      |423438 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
