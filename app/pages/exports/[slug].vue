@@ -62,12 +62,12 @@
         <template #body>
           <div v-if="tradeConnections" class="flex flex-col gap-2">
             <div
-              v-for="(pct, country) in tradeConnections.top3ExportCountries"
+              v-for="(pct, country) in tradeConnections.top3exportCountries"
               :key="country"
               class="flex items-center justify-between"
             >
-              <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
-              <span class="text-sm font-semibold text-orange-600 dark:text-orange-400">{{ pct }}</span>
+              <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ iso3ToName(country) }}</span>
+              <span class="text-sm font-semibold text-orange-600 dark:text-orange-400">{{ pct.toFixed(1) }}%</span>
             </div>
           </div>
           <p v-else class="text-sm text-zinc-400">No data available for {{ selectedYear }}</p>
@@ -95,7 +95,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry, getTradeConnections, TRADE_DATA, YEARS } from '~/utils/dummyData'
+import { getCountry, getTradeConnections, iso3ToName, TRADE_DATA, YEARS } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, formatGrowth, formatPercent } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -130,7 +130,7 @@ const worldShare = computed(() => {
   return worldAtYear === 0 ? 0 : (selectedYearData.value.exports.usd / worldAtYear) * 100
 })
 
-const tradeConnections = computed(() => getTradeConnections(c.value.name, String(selectedYear.value)))
+const tradeConnections = computed(() => getTradeConnections(c.value.iso3, String(selectedYear.value)))
 
 const usdSeries    = computed(() => series.value.map(p => ({ year: p.year, value: p.exports.usd })))
 const weightSeries = computed(() => series.value.map(p => ({ year: p.year, value: p.exports.weight })))

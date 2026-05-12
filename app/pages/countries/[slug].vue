@@ -65,12 +65,12 @@
       <StatCard title="Top 3 Import Sources" color="blue" subtitle="share of total imports">
         <div v-if="tradeConnections" class="flex flex-col gap-2 mt-1">
           <div
-            v-for="(pct, country) in tradeConnections.top3Importers"
+            v-for="(pct, country) in tradeConnections.top3importers"
             :key="country"
             class="flex items-center justify-between"
           >
-            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
-            <span class="text-sm font-semibold text-blue-600 dark:text-blue-400">{{ pct }}</span>
+            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ iso3ToName(country) }}</span>
+            <span class="text-sm font-semibold text-blue-600 dark:text-blue-400">{{ pct.toFixed(1) }}%</span>
           </div>
         </div>
         <p v-else class="text-sm text-zinc-400 mt-1">No data available</p>
@@ -80,12 +80,12 @@
       <StatCard title="Top 3 Export Destinations" color="orange" subtitle="share of total exports">
         <div v-if="tradeConnections" class="flex flex-col gap-2 mt-1">
           <div
-            v-for="(pct, country) in tradeConnections.top3ExportCountries"
+            v-for="(pct, country) in tradeConnections.top3exportCountries"
             :key="country"
             class="flex items-center justify-between"
           >
-            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
-            <span class="text-sm font-semibold text-orange-600 dark:text-orange-400">{{ pct }}</span>
+            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ iso3ToName(country) }}</span>
+            <span class="text-sm font-semibold text-orange-600 dark:text-orange-400">{{ pct.toFixed(1) }}%</span>
           </div>
         </div>
         <p v-else class="text-sm text-zinc-400 mt-1">No data available</p>
@@ -104,7 +104,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry, getTradeConnections } from '~/utils/dummyData'
+import { getCountry, getTradeConnections, iso3ToName } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, categoryToSlug } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -155,7 +155,7 @@ function onCategoryClick(slice: PieSlice) {
   nav.push(`/categories/${categoryToSlug(slice.id)}`, c.value.name)
 }
 
-const tradeConnections = computed(() => getTradeConnections(c.value.name, '2016'))
+const tradeConnections = computed(() => getTradeConnections(c.value.iso3, '2016'))
 
 const yearlySeries = computed(() => getCountryYearlySeries(c.value))
 

@@ -1,7 +1,7 @@
 import countriesRaw        from '~/utils/generated/countries.json'
 import categoriesRaw       from '~/utils/generated/categories.json'
 import yearsRaw            from '~/utils/generated/years.json'
-import tradeConnectionsRaw from '~/utils/generated/mock.tradeconnections.json'
+import tradeConnectionsRaw from '~/utils/generated/tradeconnections.json'
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -28,8 +28,8 @@ export interface CountryTrade {
 }
 
 export interface TradeConnectionYear {
-  top3ExportCountries: Record<string, string>
-  top3Importers: Record<string, string>
+  top3exportCountries: Record<string, number>
+  top3importers: Record<string, number>
 }
 
 export interface TradeFlow {
@@ -49,7 +49,19 @@ export interface SearchItem {
 export const TRADE_DATA: CountryTrade[] = countriesRaw as unknown as CountryTrade[]
 
 export const TRADE_CONNECTIONS: Record<string, Record<string, TradeConnectionYear>> =
-  tradeConnectionsRaw as Record<string, Record<string, TradeConnectionYear>>
+  tradeConnectionsRaw as unknown as Record<string, Record<string, TradeConnectionYear>>
+
+// Display names for ISO3 codes not present in TRADE_DATA
+const SPECIAL_ISO3_NAMES: Record<string, string> = {
+  WLD: 'World',
+  EUU: 'European Union',
+}
+
+export function iso3ToName(iso3: string): string {
+  return SPECIAL_ISO3_NAMES[iso3]
+    ?? TRADE_DATA.find(c => c.iso3.toUpperCase() === iso3.toUpperCase())?.name
+    ?? iso3
+}
 
 export const CATEGORIES: string[] = [
   ...new Set((categoriesRaw as Array<{ name: string }>).map(c => c.name))
@@ -59,8 +71,8 @@ export const YEARS: number[] = (yearsRaw as Array<{ year: number }>).map(y => y.
 
 // ─── Helper functions ──────────────────────────────────────────────────────
 
-export function getTradeConnections(countryName: string, year: string): TradeConnectionYear | null {
-  return TRADE_CONNECTIONS[countryName]?.[year] ?? null
+export function getTradeConnections(iso3: string, year: string): TradeConnectionYear | null {
+  return TRADE_CONNECTIONS[iso3.toUpperCase()]?.[year] ?? null
 }
 
 export function getCountry(iso3: string): CountryTrade | undefined {
@@ -99,10 +111,12 @@ export const TRADE_FLOWS: TradeFlow[] = (() => {
   const flows: TradeFlow[] = []
   for (let i = 0; i < Math.min(top.length, 5); i++) {
     for (let j = i + 1; j < Math.min(top.length, 6); j++) {
+      const a = top[i]!
+      const b = top[j]!
       flows.push({
-        fromIso3: top[i].iso3, fromLat: top[i].lat, fromLng: top[i].lng,
-        toIso3:   top[j].iso3, toLat:   top[j].lat,   toLng:   top[j].lng,
-        usd: Math.round((top[i].exports.usd + top[j].imports.usd) / 2),
+        fromIso3: a.iso3, fromLat: a.lat, fromLng: a.lng,
+        toIso3:   b.iso3, toLat:   b.lat, toLng:   b.lng,
+        usd: Math.round((a.exports.usd + b.imports.usd) / 2),
         weight: 0,
         type: 'export',
       })

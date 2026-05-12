@@ -13,7 +13,80 @@
 <script setup lang="ts">
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
-import { TRADE_DATA, TRADE_FLOWS, getTradeValue, valueToColor } from '~/utils/dummyData'
+import { TRADE_DATA, TRADE_CONNECTIONS, TRADE_FLOWS, getTradeValue, valueToColor } from '~/utils/dummyData'
+
+// Hardcoded centroids for countries with bad/missing lat-lng in TRADE_DATA
+const CENTROIDS: Record<string, [number, number]> = {
+  FRA: [2.35, 46.23],
+  USA: [-97.0, 38.9],
+}
+
+const getCountryLngLat = (iso3: string): [number, number] | null => {
+  const key = iso3.toUpperCase()
+  if (CENTROIDS[key]) return CENTROIDS[key]
+  const c = TRADE_DATA.find(c => c.iso3.toUpperCase() === key)
+  if (!c || (c.lat === 0 && c.lng === 0)) return null
+  return [c.lng, c.lat]
+}
+
+const SPECIAL_PARTNER_COORDS: Record<string, [number, number]> = {
+  WLD: [-30, 0],   // mid-Atlantic Ocean
+  EUU: [10, 50],   // center of Europe
+}
+
+const getPartnerLngLat = (iso3: string): [number, number] | null => {
+  if (SPECIAL_PARTNER_COORDS[iso3]) return SPECIAL_PARTNER_COORDS[iso3]
+  return getCountryLngLat(iso3)
+}
+
+// Returns the TRADE_CONNECTIONS key for a hovered feature, or null if no data
+const resolveConnectionKey = (geoName: string, iso3: string): string | null => {
+  if (TRADE_CONNECTIONS[iso3])    return iso3
+  if (TRADE_CONNECTIONS[geoName]) return geoName  // fallback for any remaining name keys
+  return null
+}
+
+// Spherical interpolation → great-circle arc as [lng, lat] array
+const greatCircleArc = (
+  from: [number, number],
+  to: [number, number],
+  steps = 48
+): [number, number][] => {
+  const r = Math.PI / 180
+  const lat1 = from[1] * r, lng1 = from[0] * r
+  const lat2 = to[1] * r,   lng2 = to[0] * r
+  const d = Math.acos(
+    Math.max(-1, Math.min(1,
+      Math.sin(lat1) * Math.sin(lat2) + Math.cos(lat1) * Math.cos(lat2) * Math.cos(lng2 - lng1)
+    ))
+  )
+  if (d < 0.001) return [from, to]
+  const pts: [number, number][] = []
+  for (let i = 0; i <= steps; i++) {
+    const t = i / steps
+    const A = Math.sin((1 - t) * d) / Math.sin(d)
+    const B = Math.sin(t * d) / Math.sin(d)
+    const x = A * Math.cos(lat1) * Math.cos(lng1) + B * Math.cos(lat2) * Math.cos(lng2)
+    const y = A * Math.cos(lat1) * Math.sin(lng1) + B * Math.cos(lat2) * Math.sin(lng2)
+    const z = A * Math.sin(lat1) + B * Math.sin(lat2)
+    pts.push([
+      Math.atan2(y, x) * 180 / Math.PI,
+      Math.atan2(z, Math.sqrt(x * x + y * y)) * 180 / Math.PI,
+    ])
+  }
+  // Unwrap longitude jumps from antimeridian crossings so the path stays
+  // continuous. Without this, a jump from e.g. -175 to +175 tells Mapbox to
+  // render the segment the "wrong way" around the globe (appearing as a loop
+  // over the pole in globe projection).
+  for (let i = 1; i < pts.length; i++) {
+    const cur = pts[i]!
+    const prev = pts[i - 1]!
+    while (cur[0] - prev[0] > 180) cur[0] -= 360
+    while (cur[0] - prev[0] < -180) cur[0] += 360
+  }
+  return pts
+}
+
 
 const config = useRuntimeConfig()
 const router = useRouter()
@@ -114,9 +187,43 @@ onMounted(async () => {
       }
     })
 
+    // 3. ADD TRADE CONNECTION LAYERS (hover lines + endpoint circles)
+    const emptyFC = { type: 'FeatureCollection' as const, features: [] }
+
+    canvas.addSource('trade-connection-lines', { type: 'geojson', data: emptyFC })
+    canvas.addSource('trade-connection-dots',  { type: 'geojson', data: emptyFC })
+
+    const flowColor: any = ['match', ['get', 'flowType'],
+      'import', '#3b82f6',
+      'export', '#f97316',
+      'both',   '#a855f7',
+      '#888888',
+    ]
+
+    canvas.addLayer({
+      id: 'trade-connection-lines',
+      type: 'line',
+      source: 'trade-connection-lines',
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: { 'line-color': flowColor, 'line-width': 2, 'line-opacity': 0.85 },
+    })
+
+    canvas.addLayer({
+      id: 'trade-connection-dots',
+      type: 'circle',
+      source: 'trade-connection-dots',
+      paint: {
+        'circle-radius': 6,
+        'circle-color': flowColor,
+        'circle-stroke-width': 2,
+        'circle-stroke-color': '#ffffff',
+        'circle-opacity': 0.95,
+      },
+    })
+
     // Setup map interactions
     setupInteractions()
-    
+
     // Initial color calculation
     updateMapVisuals()
   })
@@ -199,6 +306,69 @@ const updateMapVisuals = () => {
 
 let hoveredId: number | string | null = null
 
+const setSource = (id: string, features: any[]) => {
+  (canvas.getSource(id) as mapboxgl.GeoJSONSource).setData({ type: 'FeatureCollection', features })
+}
+
+const clearTradeConnections = () => {
+  setSource('trade-connection-lines', [])
+  setSource('trade-connection-dots', [])
+}
+
+const updateTradeConnections = (geoName: string, iso3: string) => {
+  const key = resolveConnectionKey(geoName, iso3)
+  if (!key) { clearTradeConnections(); return }
+
+  // Resolve hovered country coordinates
+  const validIso3 = iso3 && iso3 !== '-99' ? iso3 : null
+  let hLngLat: [number, number] | null = validIso3 ? getCountryLngLat(validIso3) : null
+  if (!hLngLat) {
+    const byName = TRADE_DATA.find(c => c.name === geoName)
+    if (byName) {
+      const k = byName.iso3.toUpperCase()
+      hLngLat = CENTROIDS[k] ?? ((byName.lat !== 0 || byName.lng !== 0) ? [byName.lng, byName.lat] : null)
+    }
+  }
+  if (!hLngLat) { clearTradeConnections(); return }
+
+  const yearData = TRADE_CONNECTIONS[key]?.['2016']
+  if (!yearData) { clearTradeConnections(); return }
+
+  const importers = new Set(Object.keys(yearData.top3importers))
+  const exporters = new Set(Object.keys(yearData.top3exportCountries))
+  const allPartners = new Set([...importers, ...exporters])
+
+  const lines: any[] = []
+  const dots: any[] = []
+
+  for (const partnerName of allPartners) {
+    const partnerLngLat = getPartnerLngLat(partnerName)
+    if (!partnerLngLat) continue
+
+    const isImport = importers.has(partnerName)
+    const isExport = exporters.has(partnerName)
+    const flowType = isImport && isExport ? 'both' : isImport ? 'import' : 'export'
+
+    // Circle at the partner's location, colored by flow type
+    dots.push({ type: 'Feature', geometry: { type: 'Point', coordinates: partnerLngLat }, properties: { flowType } })
+
+    // Import: arc flowing from partner → hovered country
+    if (isImport) {
+      const arc = greatCircleArc(partnerLngLat, hLngLat)
+      lines.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: arc }, properties: { flowType } })
+    }
+
+    // Export: arc flowing from hovered country → partner
+    if (isExport) {
+      const arc = greatCircleArc(hLngLat, partnerLngLat)
+      lines.push({ type: 'Feature', geometry: { type: 'LineString', coordinates: arc }, properties: { flowType } })
+    }
+  }
+
+  setSource('trade-connection-lines', lines)
+  setSource('trade-connection-dots', dots)
+}
+
 const setupInteractions = () => {
   canvas.on('mousemove', 'country-fills', (e) => {
     if (route.path !== '/') return
@@ -212,6 +382,9 @@ const setupInteractions = () => {
       canvas.setFeatureState({ source: 'countries', id: hoveredId }, { hover: true })
     }
     canvas.getCanvas().style.cursor = 'pointer'
+
+    const props = e.features[0]?.properties
+    if (props) updateTradeConnections(props.name ?? '', props['ISO3166-1-Alpha-3'] ?? '')
   })
 
   canvas.on('mouseleave', 'country-fills', () => {
@@ -220,6 +393,7 @@ const setupInteractions = () => {
     }
     hoveredId = null
     canvas.getCanvas().style.cursor = ''
+    clearTradeConnections()
   })
 
   canvas.on('click', 'country-fills', (e) => {
