@@ -1,0 +1,3482 @@
+[
+    {
+        "year": 1988,
+        "imports": {
+            "usd": 157911,
+            "weight": 662990
+        },
+        "exports": {
+            "usd": 70219,
+            "weight": 326133
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 46231
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 12044
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 7156
+            },
+            {
+                "id": "aluminium",
+                "name": "Aluminium",
+                "usd": 6494
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 4961
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 6633
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 6137
+            },
+            {
+                "id": "ships-boats",
+                "name": "Ships & Boats",
+                "usd": 5190
+            },
+            {
+                "id": "wool-animal-hair",
+                "name": "Wool & Animal Hair",
+                "usd": 4930
+            },
+            {
+                "id": "aluminium",
+                "name": "Aluminium",
+                "usd": 3312
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 101596
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 25844
+            },
+            {
+                "iso3": "IND",
+                "name": "India",
+                "usd": 8543
+            },
+            {
+                "iso3": "FIN",
+                "name": "Finland",
+                "usd": 8057
+            },
+            {
+                "iso3": "GRC",
+                "name": "Greece",
+                "usd": 5449
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 30959
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 17356
+            },
+            {
+                "iso3": "IND",
+                "name": "India",
+                "usd": 8023
+            },
+            {
+                "iso3": "FIN",
+                "name": "Finland",
+                "usd": 5842
+            },
+            {
+                "iso3": "CHE",
+                "name": "Switzerland",
+                "usd": 2780
+            }
+        ],
+        "historicalNote": "The Uruguay Round of GATT negotiations was in full swing, laying the groundwork for the future WTO. Global trade volumes grew steadily amid broad economic expansion."
+    },
+    {
+        "year": 1989,
+        "imports": {
+            "usd": 295552,
+            "weight": 958046
+        },
+        "exports": {
+            "usd": 250467,
+            "weight": 949214
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 68993
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 28677
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 13743
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 12222
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 10573
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 32938
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 29944
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 10105
+            },
+            {
+                "id": "wood-pulp",
+                "name": "Wood Pulp",
+                "usd": 9470
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 9357
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 112092
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 62987
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 31619
+            },
+            {
+                "iso3": "BRA",
+                "name": "Brazil",
+                "usd": 13432
+            },
+            {
+                "iso3": "DNK",
+                "name": "Denmark",
+                "usd": 12512
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 89343
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 34360
+            },
+            {
+                "iso3": "BRA",
+                "name": "Brazil",
+                "usd": 29278
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 18114
+            },
+            {
+                "iso3": "DNK",
+                "name": "Denmark",
+                "usd": 16134
+            }
+        ],
+        "historicalNote": "The fall of the Berlin Wall reshaped trade patterns in Europe as Eastern economies began opening to world markets. Asian economies continued their rapid export-led growth."
+    },
+    {
+        "year": 1990,
+        "imports": {
+            "usd": 337164,
+            "weight": 1006168
+        },
+        "exports": {
+            "usd": 277733,
+            "weight": 952975
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 91403
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 27678
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 15686
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 14188
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 10894
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 41536
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 29514
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 11782
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 9810
+            },
+            {
+                "id": "ships-boats",
+                "name": "Ships & Boats",
+                "usd": 9425
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 128764
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 64545
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 30798
+            },
+            {
+                "iso3": "BRA",
+                "name": "Brazil",
+                "usd": 14849
+            },
+            {
+                "iso3": "DNK",
+                "name": "Denmark",
+                "usd": 14517
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 95026
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 36838
+            },
+            {
+                "iso3": "BRA",
+                "name": "Brazil",
+                "usd": 26638
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 20410
+            },
+            {
+                "iso3": "DNK",
+                "name": "Denmark",
+                "usd": 20004
+            }
+        ],
+        "historicalNote": "Iraq's invasion of Kuwait triggered an oil price spike that disrupted global commodity trade. The US entered a mild recession, dampening import demand."
+    },
+    {
+        "year": 1991,
+        "imports": {
+            "usd": 509631,
+            "weight": 1433852
+        },
+        "exports": {
+            "usd": 457817,
+            "weight": 1228683
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 118208
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 38002
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 28463
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 16337
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 15130
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 52840
+            },
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 51182
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 29183
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 19575
+            },
+            {
+                "id": "ships-boats",
+                "name": "Ships & Boats",
+                "usd": 13987
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 145451
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 123264
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 65095
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 31294
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 28802
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 97420
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 94621
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 72504
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 38361
+            },
+            {
+                "iso3": "BRA",
+                "name": "Brazil",
+                "usd": 26742
+            }
+        ],
+        "historicalNote": "Collapse of the Soviet Union created new trading partners and disrupted established flows. Gulf War resolution allowed oil markets to stabilize."
+    },
+    {
+        "year": 1992,
+        "imports": {
+            "usd": 629322,
+            "weight": 1464126
+        },
+        "exports": {
+            "usd": 617010,
+            "weight": 2254852
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 124698
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 43079
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 34786
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 17850
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 16639
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 71961
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 56895
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 34523
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 24767
+            },
+            {
+                "id": "ships-boats",
+                "name": "Ships & Boats",
+                "usd": 19203
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 150390
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 119002
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 67143
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 39397
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 33095
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 104588
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 100831
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 76005
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 50135
+            },
+            {
+                "iso3": "AUS",
+                "name": "Australia",
+                "usd": 39511
+            }
+        ],
+        "historicalNote": "The European Single Market officially launched, dramatically easing intra-EU trade barriers. NAFTA negotiations concluded, promising deeper North American integration."
+    },
+    {
+        "year": 1993,
+        "imports": {
+            "usd": 714256,
+            "weight": 2503561
+        },
+        "exports": {
+            "usd": 697955,
+            "weight": 1718284
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 121716
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 48710
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 42087
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 23014
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 17257
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 74460
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 55440
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 45047
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 23716
+            },
+            {
+                "id": "ships-boats",
+                "name": "Ships & Boats",
+                "usd": 22366
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 124143
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 115257
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 72171
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 70745
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 41971
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 108252
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 90808
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 68557
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 63204
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 52511
+            }
+        ],
+        "historicalNote": "NAFTA was signed and ratified. Uruguay Round negotiations succeeded, paving the way for the WTO. Global growth remained subdued following the early-1990s slowdown."
+    },
+    {
+        "year": 1994,
+        "imports": {
+            "usd": 1012067,
+            "weight": 3195538
+        },
+        "exports": {
+            "usd": 970935,
+            "weight": 2753046
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 154911
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 61812
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 51919
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 33459
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 24945
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 85404
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 67426
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 53484
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 29523
+            },
+            {
+                "id": "footwear",
+                "name": "Footwear",
+                "usd": 28793
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 137435
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 125772
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 91061
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 84084
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 77690
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 122684
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 100526
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 94444
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 70251
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 69388
+            }
+        ],
+        "historicalNote": "The WTO agreement was signed in Marrakesh. Mexico's peso crisis at year-end sent shockwaves through emerging markets and curbed Latin American trade."
+    },
+    {
+        "year": 1995,
+        "imports": {
+            "usd": 1298360,
+            "weight": 3495755
+        },
+        "exports": {
+            "usd": 1264775,
+            "weight": 2923163
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 186387
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 80585
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 50975
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 49829
+            },
+            {
+                "id": "aluminium",
+                "name": "Aluminium",
+                "usd": 32669
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 96015
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 80436
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 68991
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 48495
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 37398
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 155662
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 142532
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 122136
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 105184
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 94927
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 139994
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 137620
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 116654
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 113398
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 79507
+            }
+        ],
+        "historicalNote": "WTO officially replaced GATT, marking a new era of rules-based multilateral trade. Global trade volumes grew at their fastest pace since the 1970s."
+    },
+    {
+        "year": 1996,
+        "imports": {
+            "usd": 1371709,
+            "weight": 3772418
+        },
+        "exports": {
+            "usd": 1326600,
+            "weight": 3453840
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 224291
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 82025
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 56752
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 52168
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 39876
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 116575
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 82574
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 76882
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 51018
+            },
+            {
+                "id": "cereals",
+                "name": "Cereals",
+                "usd": 44128
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 157236
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 145519
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 126200
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 106887
+            },
+            {
+                "iso3": "HKG",
+                "name": "China, Hong Kong SAR",
+                "usd": 95924
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 146238
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 137174
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 115441
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 113687
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 81023
+            }
+        ],
+        "historicalNote": "Robust economic growth across the Asia-Pacific drove commodity and manufactured goods trade to new highs. Information technology exports surged."
+    },
+    {
+        "year": 1997,
+        "imports": {
+            "usd": 1420499,
+            "weight": 3981808
+        },
+        "exports": {
+            "usd": 1392715,
+            "weight": 3421391
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 228282
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 92432
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 66099
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 56447
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 36843
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 139055
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 90152
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 89587
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 51402
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 38702
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 150603
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 143923
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 130050
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 103997
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 102950
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 155365
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 140214
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 114213
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 110592
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 92231
+            }
+        ],
+        "historicalNote": "Asian financial crisis erupted in Thailand and spread across the region, causing dramatic currency depreciations and sharp trade contractions in Southeast and East Asia."
+    },
+    {
+        "year": 1998,
+        "imports": {
+            "usd": 1386245,
+            "weight": 4616131
+        },
+        "exports": {
+            "usd": 1386955,
+            "weight": 3553247
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 176342
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 94766
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 81939
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 55439
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 42751
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 114719
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 110456
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 93035
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 53335
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 45637
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 152384
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 134618
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 114735
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 103891
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 103086
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 150296
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 144031
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 123607
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 113552
+            },
+            {
+                "iso3": "USA",
+                "name": "USA",
+                "usd": 96229
+            }
+        ],
+        "historicalNote": "Russia defaulted on its debt, amplifying the Asian crisis contagion. Commodity prices collapsed. Global trade growth slowed sharply despite continued US strength."
+    },
+    {
+        "year": 1999,
+        "imports": {
+            "usd": 1397561,
+            "weight": 5349364
+        },
+        "exports": {
+            "usd": 1397000,
+            "weight": 3558232
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 203429
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 92367
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 85569
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 58159
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 47834
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 133723
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 108691
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 101884
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 57004
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 50884
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 146646
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 132289
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 124968
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 110676
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 104094
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 168206
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 144977
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 124182
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 112283
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 92320
+            }
+        ],
+        "historicalNote": "The euro launched as an accounting currency among 11 EU members. Asian economies began recovering. The WTO Seattle ministerial ended in failure amid mass protests."
+    },
+    {
+        "year": 2000,
+        "imports": {
+            "usd": 1570315,
+            "weight": 3683060
+        },
+        "exports": {
+            "usd": 1554829,
+            "weight": 3078696
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 323679
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 97029
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 78443
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 64984
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 49744
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 235350
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 105084
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 99119
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 67055
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 51191
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 157018
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 156754
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 141480
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 123653
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 114831
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 192772
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 150206
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 120245
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 113547
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 111751
+            }
+        ],
+        "historicalNote": "Dot-com boom peaked; global trade hit record growth rates. China's WTO accession negotiations concluded. Oil prices recovered from their 1998 lows."
+    },
+    {
+        "year": 2001,
+        "imports": {
+            "usd": 1552183,
+            "weight": 4217423
+        },
+        "exports": {
+            "usd": 1568785,
+            "weight": 3217198
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 305137
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 95108
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 84115
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 59726
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 59132
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 224784
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 107180
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 104222
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 67564
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 62439
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 165283
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 143877
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 143508
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 118835
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 111886
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 186238
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 152989
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 136070
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 117901
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 112711
+            }
+        ],
+        "historicalNote": "September 11 attacks disrupted US and global trade. The dot-com bust caused a global recession. China officially joined the WTO in December, a watershed moment."
+    },
+    {
+        "year": 2002,
+        "imports": {
+            "usd": 1616269,
+            "weight": 3706427
+        },
+        "exports": {
+            "usd": 1663282,
+            "weight": 4344309
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 300581
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 104179
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 84856
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 80671
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 64802
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 223591
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 109523
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 109106
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 91310
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 70268
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 171660
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 164919
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 138568
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 124056
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 117674
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 180242
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 180179
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 144292
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 137193
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 120266
+            }
+        ],
+        "historicalNote": "Euro coins and notes entered circulation. Slow global recovery underway. China's WTO membership accelerated its integration into global supply chains."
+    },
+    {
+        "year": 2003,
+        "imports": {
+            "usd": 1913957,
+            "weight": 3947157
+        },
+        "exports": {
+            "usd": 1942541,
+            "weight": 4450291
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 382123
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 126012
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 103599
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 84145
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 68992
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 287189
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 122170
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 109191
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 107298
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 80382
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 200070
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 196440
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 161900
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 141790
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 139898
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 214156
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 199029
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 172750
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 166540
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 143428
+            }
+        ],
+        "historicalNote": "Iraq War and SARS outbreak disrupted regional trade, especially in Asia. Chinese manufacturing exports continued their dramatic rise as a global factory."
+    },
+    {
+        "year": 2004,
+        "imports": {
+            "usd": 2332059,
+            "weight": 5686889
+        },
+        "exports": {
+            "usd": 2349188,
+            "weight": 5830596
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 512554
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 146918
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 123273
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 99159
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 86578
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 378992
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 146345
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 136980
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 119640
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 95001
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 240950
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 238268
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 195411
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 194564
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 171228
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 259704
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 232015
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 218336
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 202804
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 162517
+            }
+        ],
+        "historicalNote": "EU expanded to 25 members, integrating Central and Eastern European trade flows. China's export boom accelerated, driving global commodity demand upward."
+    },
+    {
+        "year": 2005,
+        "imports": {
+            "usd": 2718407,
+            "weight": 4628572
+        },
+        "exports": {
+            "usd": 2678623,
+            "weight": 5175883
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 709549
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 156939
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 139764
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 106086
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 101800
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 488044
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 159749
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 152152
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 127895
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 107605
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 289397
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 271536
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 237205
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 232967
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 195954
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 286425
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 272050
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 264822
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 227980
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 176575
+            }
+        ],
+        "historicalNote": "China became the world's third-largest trading nation. Rising commodity prices boosted exporters of oil, metals, and agricultural goods across the developing world."
+    },
+    {
+        "year": 2006,
+        "imports": {
+            "usd": 3176638,
+            "weight": 4787411
+        },
+        "exports": {
+            "usd": 3165227,
+            "weight": 5274312
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 872946
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 177358
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 157111
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 123709
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 112930
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 639402
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 171940
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 170912
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 159752
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 129284
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 353882
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 301651
+            },
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 295762
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 278596
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 226382
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 328643
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 314469
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 285264
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 275810
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 198647
+            }
+        ],
+        "historicalNote": "Global trade grew 8% in volume terms. The commodity supercycle intensified. Doha Round negotiations stalled, highlighting tensions between rich and developing nations."
+    },
+    {
+        "year": 2007,
+        "imports": {
+            "usd": 3743787,
+            "weight": 5008291
+        },
+        "exports": {
+            "usd": 3693402,
+            "weight": 5714660
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 965818
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 212050
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 185008
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 141858
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 138123
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 723106
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 203860
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 191447
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 180883
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 151927
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 375826
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 375536
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 351116
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 305469
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 257543
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 402364
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 369716
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 319267
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 309341
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 224534
+            }
+        ],
+        "historicalNote": "Global trade reached record levels before the financial crisis struck in H2. The US subprime mortgage crisis began spreading beyond its borders."
+    },
+    {
+        "year": 2008,
+        "imports": {
+            "usd": 4636591,
+            "weight": 5876403
+        },
+        "exports": {
+            "usd": 4337168,
+            "weight": 5655450
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1428602
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 230710
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 212222
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 185603
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 166713
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 996671
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 233541
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 193897
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 190315
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 172104
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 506377
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 463508
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 418487
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 397636
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 313569
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 479658
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 403502
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 370852
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 342485
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 262077
+            }
+        ],
+        "historicalNote": "Global financial crisis intensified after Lehman Brothers' collapse in September. Trade finance dried up and orders collapsed; world trade volumes fell sharply in Q4."
+    },
+    {
+        "year": 2009,
+        "imports": {
+            "usd": 3625151,
+            "weight": 5033884
+        },
+        "exports": {
+            "usd": 3426874,
+            "weight": 5488037
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 936448
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 219206
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 180880
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 146150
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 140583
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 657364
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 242927
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 166182
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 128265
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 123516
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 434635
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 363587
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 303755
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 270971
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 241718
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 411355
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 319807
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 310955
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 232190
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 215765
+            }
+        ],
+        "historicalNote": "World trade fell by approximately 12%\u2014the largest single-year decline since World War II\u2014as the Great Recession crushed demand and supply chains froze."
+    },
+    {
+        "year": 2010,
+        "imports": {
+            "usd": 4478338,
+            "weight": 6490439
+        },
+        "exports": {
+            "usd": 4282312,
+            "weight": 6401136
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1230705
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 244872
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 231653
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 210723
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 206335
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 966695
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 251878
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 217603
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 182577
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 164304
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 638032
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 417821
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 348443
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 336964
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 272103
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 548984
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 353079
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 339499
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 295534
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 241403
+            }
+        ],
+        "historicalNote": "Powerful V-shaped recovery: world trade volumes grew ~14%. China overtook Germany as the world's largest exporter. Commodity prices rebounded strongly."
+    },
+    {
+        "year": 2011,
+        "imports": {
+            "usd": 5603070,
+            "weight": 6073134
+        },
+        "exports": {
+            "usd": 5316063,
+            "weight": 6692987
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1700845
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 299970
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 291230
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 270972
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 250268
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1306837
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 325052
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 269483
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 245436
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 196089
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 853113
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 509378
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 453357
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 400958
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 334076
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 686594
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 413504
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 401232
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 348163
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 280499
+            }
+        ],
+        "historicalNote": "Japan's earthquake and tsunami disrupted global electronics and auto supply chains. The Arab Spring affected MENA trade patterns. Commodity prices remained elevated."
+    },
+    {
+        "year": 2012,
+        "imports": {
+            "usd": 5682382,
+            "weight": 6252122
+        },
+        "exports": {
+            "usd": 5140301,
+            "weight": 5479722
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1814459
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 308694
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 295970
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 249895
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 243390
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1135594
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 350021
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 265861
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 216599
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 206325
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 897583
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 481110
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 480643
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 379823
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 326489
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 745743
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 395131
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 390029
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 351893
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 276909
+            }
+        ],
+        "historicalNote": "Eurozone debt crisis peaked, suppressing European import demand. Global trade growth slowed to just 2%. Emerging markets showed remarkable resilience."
+    },
+    {
+        "year": 2013,
+        "imports": {
+            "usd": 5822129,
+            "weight": 8347607
+        },
+        "exports": {
+            "usd": 5434320,
+            "weight": 7414863
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1794342
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 339017
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 319020
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 260767
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 254879
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1232643
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 369412
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 280358
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 229952
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 217961
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 938589
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 491342
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 447407
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 427588
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 325942
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 792614
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 447069
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 405383
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 355951
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 285981
+            }
+        ],
+        "historicalNote": "Fed tapering fears roiled emerging market currencies and capital flows. Global trade growth remained sluggish at 2.5% despite recovery in developed economies."
+    },
+    {
+        "year": 2014,
+        "imports": {
+            "usd": 5693821,
+            "weight": 6770145
+        },
+        "exports": {
+            "usd": 5360192,
+            "weight": 7178326
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1674157
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 316179
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 309346
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 269709
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 234557
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1147873
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 344241
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 287317
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 213672
+            },
+            {
+                "id": "ores-minerals",
+                "name": "Ores & Minerals",
+                "usd": 208532
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 977567
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 479795
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 422410
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 394395
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 315648
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 858137
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 411933
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 411754
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 370500
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 282332
+            }
+        ],
+        "historicalNote": "Oil price collapse began in H2, reshaping global energy trade. Russia\u2013Ukraine conflict triggered Western sanctions affecting Eastern European trade flows."
+    },
+    {
+        "year": 2015,
+        "imports": {
+            "usd": 4699621,
+            "weight": 7797788
+        },
+        "exports": {
+            "usd": 4545529,
+            "weight": 7028541
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 1018299
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 325412
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 275249
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 254468
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 235164
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 696032
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 279911
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 270875
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 207984
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 202154
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 824303
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 393794
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 322331
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 271427
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 255892
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 826616
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 368654
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 344814
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 308347
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 246985
+            }
+        ],
+        "historicalNote": "Oil and commodity prices crashed further, reducing the USD value of resource exports dramatically. China's slowdown raised fears of a global growth drag."
+    },
+    {
+        "year": 2016,
+        "imports": {
+            "usd": 4127456,
+            "weight": 7286519
+        },
+        "exports": {
+            "usd": 4063905,
+            "weight": 6635963
+        },
+        "topImportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 823982
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 286823
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 257650
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 249693
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 222872
+            }
+        ],
+        "topExportCategories": [
+            {
+                "id": "mineral-fuels-oils",
+                "name": "Mineral Fuels & Oils",
+                "usd": 494683
+            },
+            {
+                "id": "precious-stones-metals",
+                "name": "Precious Stones & Metals",
+                "usd": 294687
+            },
+            {
+                "id": "pharmaceuticals",
+                "name": "Pharmaceuticals",
+                "usd": 266534
+            },
+            {
+                "id": "aircraft",
+                "name": "Aircraft",
+                "usd": 201282
+            },
+            {
+                "id": "vehicles",
+                "name": "Vehicles",
+                "usd": 193688
+            }
+        ],
+        "topImportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 770184
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 365736
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 321791
+            },
+            {
+                "iso3": "JPN",
+                "name": "Japan",
+                "usd": 251538
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 247316
+            }
+        ],
+        "topExportCountries": [
+            {
+                "iso3": "CHN",
+                "name": "China",
+                "usd": 751268
+            },
+            {
+                "iso3": "DEU",
+                "name": "Germany",
+                "usd": 365932
+            },
+            {
+                "iso3": "BEL",
+                "name": "Belgium",
+                "usd": 345053
+            },
+            {
+                "iso3": "CAN",
+                "name": "Canada",
+                "usd": 290810
+            },
+            {
+                "iso3": "FRA",
+                "name": "France",
+                "usd": 243468
+            }
+        ],
+        "historicalNote": "Brexit vote in June created UK trade policy uncertainty. US\u2013China trade tensions began emerging. Global trade growth near zero\u2014the weakest since the 2008\u201309 crisis."
+    }
+]

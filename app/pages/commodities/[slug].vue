@@ -95,7 +95,7 @@
 </template>
 
 <script setup lang="ts">
-import { TRADE_DATA } from '~/utils/dummyData'
+import { TRADE_DATA, YEARS } from '~/utils/dummyData'
 import { getCommodityById, getCommodityYearlySeries, getCategoryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, formatGrowth, formatPercent, categoryToSlug } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -115,7 +115,7 @@ const categorySlug = computed(() => categoryToSlug(com.value.category))
 const series       = computed(() => getCommodityYearlySeries(com.value))
 const catSeries    = computed(() => getCategoryYearlySeries(com.value.category))
 
-const selectedYear     = ref(2023)
+const selectedYear     = ref(YEARS.at(-1) ?? 2016)
 const selectedYearData = computed(() => series.value.find(p => p.year === selectedYear.value) ?? series.value.at(-1)!)
 const catYearData      = computed(() => catSeries.value.find(p => p.year === selectedYear.value) ?? catSeries.value.at(-1)!)
 

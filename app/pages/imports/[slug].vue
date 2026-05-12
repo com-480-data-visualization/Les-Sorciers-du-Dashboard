@@ -71,7 +71,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry, TRADE_DATA } from '~/utils/dummyData'
+import { getCountry, TRADE_DATA, YEARS } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, formatGrowth, formatPercent } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -89,7 +89,7 @@ if (!raw.value) await navigateTo('/')
 const c      = computed(() => raw.value!)
 const series = computed(() => getCountryYearlySeries(c.value))
 
-const selectedYear     = ref(2023)
+const selectedYear     = ref(YEARS.at(-1) ?? 2016)
 const selectedYearData = computed(() => series.value.find(p => p.year === selectedYear.value) ?? series.value.at(-1)!)
 
 const growthSince1988 = computed(() => {

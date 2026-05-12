@@ -127,7 +127,7 @@ if (!YEARS.includes(year.value)) await navigateTo('/')
 
 const snapshot = computed(() => getYearSnapshot(year.value))
 
-const compareYear     = ref(year.value > 1988 ? year.value - 1 : 1989)
+const compareYear     = ref(year.value > (YEARS[0] ?? 1988) ? year.value - 1 : (YEARS[1] ?? 1989))
 const compareSnapshot = computed(() => getYearSnapshot(compareYear.value))
 
 const diffPercent = computed(() => {

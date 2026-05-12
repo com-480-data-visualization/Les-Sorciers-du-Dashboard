@@ -100,7 +100,7 @@
 </template>
 
 <script setup lang="ts">
-import { TRADE_DATA, CATEGORIES } from '~/utils/dummyData'
+import { TRADE_DATA, CATEGORIES, YEARS } from '~/utils/dummyData'
 import { getCategoryYearlySeries, getCommoditiesByCategory } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, formatGrowth, formatPercent, slugToCategory } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -117,7 +117,7 @@ if (!slugToCategory(slug.value, CATEGORIES)) await navigateTo('/')
 
 const commodities      = computed(() => getCommoditiesByCategory(category.value))
 const series           = computed(() => getCategoryYearlySeries(category.value))
-const selectedYear     = ref(2023)
+const selectedYear     = ref(YEARS.at(-1) ?? 2016)
 const selectedYearData = computed(() => series.value.find(p => p.year === selectedYear.value) ?? series.value.at(-1)!)
 
 const growthSince1988 = computed(() => {

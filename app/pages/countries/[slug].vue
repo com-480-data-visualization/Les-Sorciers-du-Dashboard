@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry, CATEGORIES } from '~/utils/dummyData'
+import { getCountry } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, categoryToSlug } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -101,19 +101,27 @@ const CATEGORY_COLORS = [
   '#f59e0b','#6366f1',
 ]
 
-const pieSlices = computed<PieSlice[]>(() =>
-  CATEGORIES
-    .map((cat, i) => {
-      const data  = c.value.byCategory[cat]
-      const value = (data?.imports.usd ?? 0) + (data?.exports.usd ?? 0)
-      return { id: cat, label: cat, value, color: CATEGORY_COLORS[i % CATEGORY_COLORS.length] }
-    })
+const pieSlices = computed<PieSlice[]>(() => {
+  const all = Object.entries(c.value.byCategory)
+    .map(([cat, data]) => ({
+      id: cat, label: cat,
+      value: (data?.imports.usd ?? 0) + (data?.exports.usd ?? 0),
+    }))
     .filter(s => s.value > 0)
-)
+    .sort((a, b) => b.value - a.value)
+
+  const top = all.slice(0, 11).map((s, i) => ({ ...s, color: CATEGORY_COLORS[i % CATEGORY_COLORS.length] }))
+
+  if (all.length <= 11) return top
+
+  const otherValue = all.slice(11).reduce((sum, s) => sum + s.value, 0)
+  return [...top, { id: '__other__', label: 'Other', value: otherValue, color: '#9ca3af' }]
+})
 
 const pieExpanded = ref(false)
 
 function onCategoryClick(slice: PieSlice) {
+  if (slice.id === '__other__') return
   nav.push(`/categories/${categoryToSlug(slice.id)}`, c.value.name)
 }
 
