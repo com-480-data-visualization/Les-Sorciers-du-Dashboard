@@ -1,6 +1,7 @@
-import countriesRaw  from '~/utils/generated/countries.json'
-import categoriesRaw from '~/utils/generated/categories.json'
-import yearsRaw      from '~/utils/generated/years.json'
+import countriesRaw        from '~/utils/generated/countries.json'
+import categoriesRaw       from '~/utils/generated/categories.json'
+import yearsRaw            from '~/utils/generated/years.json'
+import tradeConnectionsRaw from '~/utils/generated/mock.tradeconnections.json'
 
 // ─── Types ────────────────────────────────────────────────────────────────
 
@@ -26,6 +27,11 @@ export interface CountryTrade {
   series: YearlyPoint[]
 }
 
+export interface TradeConnectionYear {
+  top3ExportCountries: Record<string, string>
+  top3Importers: Record<string, string>
+}
+
 export interface TradeFlow {
   fromIso3: string; fromLat: number; fromLng: number
   toIso3: string;   toLat: number;   toLng: number
@@ -42,6 +48,9 @@ export interface SearchItem {
 
 export const TRADE_DATA: CountryTrade[] = countriesRaw as unknown as CountryTrade[]
 
+export const TRADE_CONNECTIONS: Record<string, Record<string, TradeConnectionYear>> =
+  tradeConnectionsRaw as Record<string, Record<string, TradeConnectionYear>>
+
 export const CATEGORIES: string[] = [
   ...new Set((categoriesRaw as Array<{ name: string }>).map(c => c.name))
 ]
@@ -49,6 +58,10 @@ export const CATEGORIES: string[] = [
 export const YEARS: number[] = (yearsRaw as Array<{ year: number }>).map(y => y.year)
 
 // ─── Helper functions ──────────────────────────────────────────────────────
+
+export function getTradeConnections(countryName: string, year: string): TradeConnectionYear | null {
+  return TRADE_CONNECTIONS[countryName]?.[year] ?? null
+}
 
 export function getCountry(iso3: string): CountryTrade | undefined {
   return TRADE_DATA.find(c => c.iso3.toUpperCase() === iso3.toUpperCase())

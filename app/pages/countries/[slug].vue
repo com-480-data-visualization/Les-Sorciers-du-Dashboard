@@ -61,6 +61,36 @@
         </p>
       </div>
 
+      <!-- Top 3 import sources -->
+      <StatCard title="Top 3 Import Sources" color="blue" subtitle="share of total imports">
+        <div v-if="tradeConnections" class="flex flex-col gap-2 mt-1">
+          <div
+            v-for="(pct, country) in tradeConnections.top3Importers"
+            :key="country"
+            class="flex items-center justify-between"
+          >
+            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
+            <span class="text-sm font-semibold text-blue-600 dark:text-blue-400">{{ pct }}</span>
+          </div>
+        </div>
+        <p v-else class="text-sm text-zinc-400 mt-1">No data available</p>
+      </StatCard>
+
+      <!-- Top 3 export destinations -->
+      <StatCard title="Top 3 Export Destinations" color="orange" subtitle="share of total exports">
+        <div v-if="tradeConnections" class="flex flex-col gap-2 mt-1">
+          <div
+            v-for="(pct, country) in tradeConnections.top3ExportCountries"
+            :key="country"
+            class="flex items-center justify-between"
+          >
+            <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
+            <span class="text-sm font-semibold text-orange-600 dark:text-orange-400">{{ pct }}</span>
+          </div>
+        </div>
+        <p v-else class="text-sm text-zinc-400 mt-1">No data available</p>
+      </StatCard>
+      
       <!-- Evolution over time -->
       <div class="col-span-1 md:col-span-2 lg:col-span-3 bg-zinc-100 dark:bg-zinc-800 rounded-xl p-5">
         <h3 class="text-sm font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wide mb-3">Evolution Over Time</h3>
@@ -74,7 +104,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry } from '~/utils/dummyData'
+import { getCountry, getTradeConnections } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, categoryToSlug } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -124,6 +154,8 @@ function onCategoryClick(slice: PieSlice) {
   if (slice.id === '__other__') return
   nav.push(`/categories/${categoryToSlug(slice.id)}`, c.value.name)
 }
+
+const tradeConnections = computed(() => getTradeConnections(c.value.name, '2016'))
 
 const yearlySeries = computed(() => getCountryYearlySeries(c.value))
 

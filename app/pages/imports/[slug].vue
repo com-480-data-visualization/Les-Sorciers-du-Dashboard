@@ -51,6 +51,30 @@
         <YearSlider v-model="selectedYear" />
       </StatCard>
 
+      <!-- Top 3 import sources -->
+      <StatCard
+        title="Top 3 Import Sources"
+        color="blue"
+        :subtitle="`Year: ${selectedYear}`"
+        expandable
+        clickable
+      >
+        <template #body>
+          <div v-if="tradeConnections" class="flex flex-col gap-2">
+            <div
+              v-for="(pct, country) in tradeConnections.top3Importers"
+              :key="country"
+              class="flex items-center justify-between"
+            >
+              <span class="text-sm text-zinc-700 dark:text-zinc-300">{{ country }}</span>
+              <span class="text-sm font-semibold text-blue-600 dark:text-blue-400">{{ pct }}</span>
+            </div>
+          </div>
+          <p v-else class="text-sm text-zinc-400">No data available for {{ selectedYear }}</p>
+        </template>
+        <YearSlider v-model="selectedYear" />
+      </StatCard>
+
       <!-- Evolution chart (full width) -->
       <div class="col-span-1 md:col-span-2 lg:col-span-3 bg-zinc-100 dark:bg-zinc-800 rounded-xl p-5">
         <h3 class="text-sm font-semibold text-zinc-500 dark:text-zinc-400 uppercase tracking-wide mb-3">Import Evolution (1988–2023)</h3>
@@ -71,7 +95,7 @@
 </template>
 
 <script setup lang="ts">
-import { getCountry, TRADE_DATA, YEARS } from '~/utils/dummyData'
+import { getCountry, getTradeConnections, TRADE_DATA, YEARS } from '~/utils/dummyData'
 import { getCountryYearlySeries } from '~/utils/tradeExtended'
 import { formatUsd, formatWeight, formatGrowth, formatPercent } from '~/utils/formatters'
 import { useNavHistory } from '~/composables/useNavHistory'
@@ -105,6 +129,8 @@ const worldShare = computed(() => {
   }, 0)
   return worldAtYear === 0 ? 0 : (selectedYearData.value.imports.usd / worldAtYear) * 100
 })
+
+const tradeConnections = computed(() => getTradeConnections(c.value.name, String(selectedYear.value)))
 
 const usdSeries    = computed(() => series.value.map(p => ({ year: p.year, value: p.imports.usd })))
 const weightSeries = computed(() => series.value.map(p => ({ year: p.year, value: p.imports.weight })))

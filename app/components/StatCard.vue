@@ -27,6 +27,9 @@
     <!-- Subtitle -->
     <p v-if="subtitle" class="text-xs text-zinc-500 dark:text-zinc-400">{{ subtitle }}</p>
 
+    <!-- Always-visible body content -->
+    <slot name="body" />
+
     <!-- Expanded content -->
     <Transition name="expand">
       <div v-if="expanded || !expandable" class="mt-1">
